@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageSelector</string>
+    <string name="minnum">最少选择一张图片</string>
+    <string name="maxnum">最多选择%1$d张图片</string>
+    <string name="all_images">所有图片</string>
+    <string name="confirm_format">%1$s(%2$d/%3$d)</string>
+</resources>

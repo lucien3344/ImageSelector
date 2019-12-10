@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.lucien3344.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/bg_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+        <com.lucien3344.imageselector.view.CircleImageView
+            android:id="@+id/header_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_centerInParent="true"
+            android:onClick="onHeaderClick"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/header_for_female"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp" />
+
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="onSelectClick"
+            android:text="设置背景图片" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/gridImage_fragment"
+        android:name="com.lucien3344.imageselector.ui.fragment.GridImageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        tools:layout="@layout/fragment_gridimage" />
+
+
+</LinearLayout>

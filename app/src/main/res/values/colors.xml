@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="bg_">#FFFFFF</color>
+    <color name="app_background">#f8f8f8</color>
+
+    <!-- 字体颜色 -->
+    <color name="tFont_color_333333">#333333</color>
+    <color name="sFont_color_666666">#666666</color>
+    <color name="fFont_color_ffffff">#ffffff</color>
+    <color name="fFont_color_ff7800">#ff7800</color>
+    <color name="cFont_color_cccccc">#cccccc</color>
+    <color name="tFont_color_FFB9B1A9">#FFB9B1A9</color>
+
+
+    <color name="aFont_color_aaaaaa">#aaaaaa</color>
+    <color name="dFont_color_dddddd">#dddddd</color>
+    <color name="tFont_color_343331">#343331</color>
+    <color name="fFont_color_cfff4e2">#FFF4E2</color>
+    <color name="eFont_color_eabc6f">#EABC6F</color>
+    <color name="bFont_color_bab6b2">#BAB6B2</color>
+    <color name="fFont_color_cf4f4f4">#F4F4F4</color>
+    <color name="aFont_color_aca095">#ACA095</color>
+    <color name="aFont_color_fcb249">#FCB249</color>
+
+</resources>

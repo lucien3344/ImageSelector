@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:11:5-13:47
+	tools:ignore
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:12:9-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:15:22-80
+uses-permission#android.permission.CAMERA
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:17:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:19:5-60
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:19:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:20:19-67
+application
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:22:5-54:19
+	android:allowBackup
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:24:9-35
+	tools:replace
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:25:9-37
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:23:9-37
+activity#com.lucien3344.imageselector.ui.ImageListActivity
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:26:9-28:47
+	android:theme
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:28:13-44
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:27:13-49
+activity#com.lucien3344.imageselector.ui.CameraActivity
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:30:9-32:72
+	android:theme
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:32:13-69
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:31:13-46
+activity#com.lucien3344.imageselector.ui.ImageViewPagerActivity
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:34:9-36:47
+	android:theme
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:35:13-54
+meta-data#APP_ID
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:38:9-40:48
+	android:value
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:39:13-34
+provider#android.support.v4.content.FileProvider
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:42:9-52:20
+	android:grantUriPermissions
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:46:13-47
+	android:authorities
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:44:13-66
+	android:exported
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:45:13-37
+	tools:replace
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:43:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:48:13-51:52
+	android:resource
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:50:17-55
+	tools:replace
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:51:17-49
+	android:name
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml:49:17-67
+uses-sdk
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\AndroidManifest.xml

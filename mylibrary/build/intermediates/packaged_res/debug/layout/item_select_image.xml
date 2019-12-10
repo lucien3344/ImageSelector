@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lucien3344.imageselector.view.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_default_image" />
+
+    <View
+        android:id="@+id/view_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55aaaaaa"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivPhotoCheaked"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_uncheck_24dp" />
+
+</com.lucien3344.imageselector.view.SquareRelativeLayout>
