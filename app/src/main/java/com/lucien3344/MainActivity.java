@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.common.onclicklistener.OnSelectItemClickListener;
 import com.lucien3344.imageselector.config.CameraConfig;
 import com.lucien3344.imageselector.config.ImageConfig;
@@ -89,27 +90,27 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onSelectClick(View v) {
-        ImageConfig config = new ImageConfig.Builder()
-                .multiSelect(true)
-                // 是否记住上次选中记录
-                .rememberSelected(false)
-                // 第一个是否显示相机
-                .needCamera(true)
-                // 最大选择图片数量
-                .maxNum(1)
-                .checkResId(R.mipmap.btn_img_selected, R.mipmap.btn_img_unselected)
-                .build();
-        ActivityUtil.startImageListActivity(this, config, REQUEST_LIST_CODE);
+//        ImageConfig config = new ImageConfig.Builder()
+//                .multiSelect(true)
+//                // 是否记住上次选中记录
+//                .rememberSelected(false)
+//                // 第一个是否显示相机
+//                .needCamera(true)
+//                // 最大选择图片数量
+//                .maxNum(1)
+//                .checkResId(R.mipmap.btn_img_selected, R.mipmap.btn_img_unselected)
+//                .build();
+//        ActivityUtil.startImageListActivity(this, config, REQUEST_LIST_CODE);
 
 
-//        ArrayList<Image> images = new ArrayList<>();
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210713286.jpg", ""));
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102108643WK.jpg", ""));
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei201912271021088862T.jpg", ""));
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102109176W9.jpg", ""));
-//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
-//        ActivityUtil.showBigImageActivity(this, 1, images, false, 0);
+        ArrayList<Image> images = new ArrayList<>();
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210713286.jpg", ""));
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102108643WK.jpg", ""));
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei201912271021088862T.jpg", ""));
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102109176W9.jpg", ""));
+        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
+        ActivityUtil.showBigImageActivity(this, 1, images, false, 0);
     }
 
 

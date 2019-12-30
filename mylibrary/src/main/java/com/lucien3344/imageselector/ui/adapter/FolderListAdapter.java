@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.common.onclicklistener.OnFolderChangeListener;
 import com.lucien3344.imageselector.objet.Folder;
@@ -123,18 +124,18 @@ public class FolderListAdapter extends BaseAdapter {
                 tvFolderName.setText("所有图片");
                 tvImageNum.setText("共" + getTotalImageSize() + "张");
                 if (folderList.size() > 0) {
-                    Glide.with(context)
+                    GlideApp.with(context)
                             .load(folder.cover.path)
-                            .apply(new RequestOptions().centerCrop())
+                            .centerCrop()
                             .into(ivFolder);
                 }
             } else {
                 tvFolderName.setText(folder.name);
                 tvImageNum.setText("共" + folder.images.size() + "张");
                 if (folderList.size() > 0) {
-                    Glide.with(context)
+                    GlideApp.with(context)
                             .load(folder.cover.path)
-                            .apply(new RequestOptions().centerCrop())
+                            .centerCrop()
                             .into(ivFolder);
                 }
             }

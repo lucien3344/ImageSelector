@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.common.Constant;
 import com.lucien3344.imageselector.common.onclicklistener.OnItemClickListener;
@@ -139,9 +140,9 @@ public class ImageListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                         listener.onImageClick(position, item);
                 }
             });
-            Glide.with(context)
+            GlideApp.with(context)
                     .load(item.path)
-                    .apply(new RequestOptions().centerCrop())
+                  .centerCrop()
                     .into(ivImage);
             if (mutiSelect) {
                 ivPhotoCheaked.setVisibility(View.VISIBLE);

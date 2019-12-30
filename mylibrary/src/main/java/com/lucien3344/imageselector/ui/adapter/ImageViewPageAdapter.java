@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.objet.Image;
 import com.lucien3344.imageselector.utils.DebugUtil;
@@ -61,9 +62,8 @@ public class ImageViewPageAdapter extends PagerAdapter {
 
     private void displayImage(ImageView photoView, String path) {
         DebugUtil.e("path = " + path);
-        Glide.with(activity)
+        GlideApp.with(activity)
                 .load(path)
-                .apply(new RequestOptions().placeholder(R.drawable.ic_default_image).priority(Priority.HIGH))
                 .into(photoView);
     }
 

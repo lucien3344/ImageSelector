@@ -1,11 +1,12 @@
 package com.lucien3344.imageselector.utils;
 
+
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.MyAppliction;
-
 
 /***
  *图片加载 工具类
@@ -18,9 +19,9 @@ public class ImageLoader {
      * @param imageView  显示的图片view
      */
     public static void load(String path, ImageView imageView) {
-        Glide.with(MyAppliction.getInstance().getApplicationContext())
+        GlideApp.with(MyAppliction.getInstance().getApplicationContext())
                 .load(path)
-                .apply(new RequestOptions().centerCrop())
+                .centerCrop()
                 .into(imageView);
     }
 
@@ -32,9 +33,9 @@ public class ImageLoader {
      * @param placeholderResId 预加载显示的图片resid
      */
     public static void load(String path, ImageView imageView, int placeholderResId) {
-        Glide.with(MyAppliction.getInstance().getApplicationContext())
+        GlideApp.with(MyAppliction.getInstance().getApplicationContext())
                 .load(path)
-                .apply(new RequestOptions().centerCrop().placeholder(placeholderResId))
+                .centerCrop().placeholder(placeholderResId)
                 .into(imageView);
     }
 
@@ -47,11 +48,9 @@ public class ImageLoader {
      * @param errorResId       加载失败显示的图片resid
      */
     public static void load(String path, ImageView imageView, int placeholderResId, int errorResId) {
-        Glide.with(MyAppliction.getInstance().getApplicationContext())
+        GlideApp.with(MyAppliction.getInstance().getApplicationContext())
                 .load(path)
-                .apply(new RequestOptions().centerCrop().placeholder(placeholderResId).error(errorResId))
+                .centerCrop().placeholder(placeholderResId).error(errorResId)
                 .into(imageView);
     }
-
-
 }

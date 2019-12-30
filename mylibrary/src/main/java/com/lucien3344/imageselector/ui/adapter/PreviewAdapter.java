@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.common.Constant;
 import com.lucien3344.imageselector.common.onclicklistener.OnItemClickListener;
@@ -104,9 +105,8 @@ public class PreviewAdapter extends PagerAdapter {
     }
 
     private void displayImage(ImageView photoView, String path) {
-        Glide.with(activity)
+        GlideApp.with(activity)
                 .load(path)
-                .apply(new RequestOptions().optionalCenterInside())
                 .into(photoView);
     }
 

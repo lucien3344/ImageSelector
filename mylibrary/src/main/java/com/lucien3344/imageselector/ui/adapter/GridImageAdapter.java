@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.lucien3344.imageselector.GlideApp;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.common.onclicklistener.OnGridImageClickListener;
 import com.lucien3344.imageselector.objet.Image;
@@ -109,15 +110,15 @@ public class GridImageAdapter extends BaseAdapter implements DragGridView.DragGr
         public void InitData(final Image image, final int position) {
             if (image.name.equals("*") && image.path.equals("*")) {
                 delete_btn.setVisibility(View.GONE);
-                Glide.with(context)
+                GlideApp.with(context)
                         .load(R.drawable.ic_add_image)
-                        .apply(new RequestOptions().centerCrop())
+                       .centerCrop()
                         .into(image_view);
             } else {
                 delete_btn.setVisibility(View.VISIBLE);
-                Glide.with(context)
+                GlideApp.with(context)
                         .load(image.path)
-                        .apply(new RequestOptions().centerCrop())
+                        .centerCrop()
                         .into(image_view);
             }
             itemview.setOnClickListener(new View.OnClickListener() {
