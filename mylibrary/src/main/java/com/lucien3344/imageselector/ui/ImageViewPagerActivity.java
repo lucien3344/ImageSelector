@@ -41,7 +41,7 @@ public class ImageViewPagerActivity extends AppCompatActivity implements ViewPag
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_viewpager);
-        StatusBarUtil.compat(this, Color.TRANSPARENT);
+//        StatusBarUtil.compat(this, Color.TRANSPARENT);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT && Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }

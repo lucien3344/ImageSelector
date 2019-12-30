@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Build;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
@@ -36,11 +37,13 @@ public class StatusBarUtil {
             View statusBarView = contentView.getChildAt(0);
             if (statusBarView != null && statusBarView.getMeasuredHeight() == getStatusBarHeight(activity)) {
                 statusBarView.setBackgroundColor(statusColor);
+                if(statusColor==Color.TRANSPARENT){
+                    statusBarView.setBackgroundTintMode(PorterDuff.Mode.DARKEN);
+                }
                 return statusBarView;
             }
             statusBarView = new View(activity);
-            ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
-                    getStatusBarHeight(activity));
+            ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, getStatusBarHeight(activity));
             statusBarView.setBackgroundColor(color);
             contentView.addView(statusBarView, lp);
             //activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
@@ -78,4 +81,8 @@ public class StatusBarUtil {
         }
         return result;
     }
+
+
+
+
 }

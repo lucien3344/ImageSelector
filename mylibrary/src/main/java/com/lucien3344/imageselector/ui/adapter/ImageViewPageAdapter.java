@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.Priority;
 import com.bumptech.glide.request.RequestOptions;
 import com.lucien3344.imageselector.R;
 import com.lucien3344.imageselector.objet.Image;
@@ -60,7 +61,7 @@ public class ImageViewPageAdapter extends PagerAdapter {
     private void displayImage(ImageView photoView, String path) {
         Glide.with(activity)
                 .load(path)
-                .apply(new RequestOptions().optionalCenterInside())
+                .apply(new RequestOptions().dontAnimate().priority(Priority.HIGH))
                 .into(photoView);
     }
 

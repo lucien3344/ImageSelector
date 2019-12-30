@@ -2,12 +2,9 @@
 
 
     <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorAccent</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
-
+       
     <!-- Base application theme. -->
     <style name="SelTheme" parent="@style/BaseAppTheme"></style>
 

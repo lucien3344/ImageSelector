@@ -30,11 +30,8 @@
             <enum name="repeat" value="1"/>
             <enum name="mirror" value="2"/>
         </attr>
-    </declare-styleable></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#FFFFFF</color><color name="colorPrimaryDark">#FFFFFF</color><color name="colorAccent">#FFFFFF</color><color name="bottomBar_color">#AA000000</color><color name="transparent">#00000000</color></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ImageSelector</string><string name="minnum">最少选择一张图片</string><string name="maxnum">最多选择%1$d张图片</string><string name="all_images">所有图片</string><string name="confirm_format">%1$s(%2$d/%3$d)</string></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\styles.xml" qualifiers=""><style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorAccent</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-
+    </declare-styleable></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#AAAAAA</color><color name="colorPrimaryDark">#AAAAAA</color><color name="colorAccent">#AAAAAA</color><color name="bottomBar_color">#AA000000</color><color name="transparent">#00000000</color><color name="colorTitlebar">#333333</color></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ImageSelector</string><string name="minnum">最少选择一张图片</string><string name="maxnum">最多选择%1$d张图片</string><string name="all_images">所有图片</string><string name="confirm_format">%1$s(%2$d/%3$d)</string></file><file path="D:\LucienWorkSpace\ImageSelectDemo\mylibrary\src\main\res\values\styles.xml" qualifiers=""><style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style><style name="SelTheme" parent="@style/BaseAppTheme"/><style name="PopupAnimBottom" parent="@android:style/Animation">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowEnterAnimation">@anim/popup_bottom_in</item>
