@@ -3,15 +3,19 @@ package com.lucien3344.imageselector.utils;
 
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.lucien3344.imageselector.GlideApp;
+import com.lucien3344.imageselector.GlideRequests;
 import com.lucien3344.imageselector.MyAppliction;
 
 /***
  *图片加载 工具类
  */
 public class ImageLoader {
+
+
+    public static GlideRequests getGlide() {
+        return GlideApp.with(MyAppliction.getInstance().getApplicationContext());
+    }
 
     /***
      *  加载图片
