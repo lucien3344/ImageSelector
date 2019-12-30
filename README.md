@@ -15,7 +15,7 @@
  第二步：项目在app目录下的build.gradle中添加如下代码：
 
 	dependencies {
-	        implementation 'com.github.lucien3344:ImageSelector:1.0.2'
+	        implementation 'com.github.lucien3344:ImageSelector:1.0.3'
 	}
 
 
