@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import com.lucien3344.imageselector.common.onclicklistener.OnSelectItemClickListener;
 import com.lucien3344.imageselector.config.CameraConfig;
 import com.lucien3344.imageselector.config.ImageConfig;
+import com.lucien3344.imageselector.objet.Image;
 import com.lucien3344.imageselector.ui.fragment.GridImageFragment;
 import com.lucien3344.imageselector.ui.fragment.SelectImageFromFragment;
 import com.lucien3344.imageselector.utils.ActivityUtil;
@@ -20,6 +21,7 @@ import com.lucien3344.imageselector.utils.ImageLoader;
 import com.lucien3344.imageselector.utils.StatusBarUtil;
 import com.lucien3344.imageselector.view.CircleImageView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -98,6 +100,16 @@ public class MainActivity extends AppCompatActivity {
                 .checkResId(R.mipmap.btn_img_selected, R.mipmap.btn_img_unselected)
                 .build();
         ActivityUtil.startImageListActivity(this, config, REQUEST_LIST_CODE);
+
+
+//        ArrayList<Image> images = new ArrayList<>();
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210713286.jpg", ""));
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102108643WK.jpg", ""));
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei201912271021088862T.jpg", ""));
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei20191227102109176W9.jpg", ""));
+//        images.add(new Image("https://pic.koudaihk.com/server/public/static/upload/xiaoMei/xiaoMei2019122710210798443.jpg", ""));
+//        ActivityUtil.showBigImageActivity(this, 1, images, false, 0);
     }
 
 
