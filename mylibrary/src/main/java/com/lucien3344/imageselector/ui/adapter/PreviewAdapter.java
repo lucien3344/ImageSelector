@@ -105,9 +105,11 @@ public class PreviewAdapter extends PagerAdapter {
     }
 
     private void displayImage(ImageView photoView, String path) {
+        /*****加载图片****/
         GlideApp.with(activity)
                 .load(path)
                 .into(photoView);
+
     }
 
     @Override

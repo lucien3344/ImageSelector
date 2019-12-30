@@ -61,7 +61,7 @@ public class ImageViewPageAdapter extends PagerAdapter {
     }
 
     private void displayImage(ImageView photoView, String path) {
-        DebugUtil.e("path = " + path);
+        /*****加载图片****/
         GlideApp.with(activity)
                 .load(path)
                 .into(photoView);
